@@ -10,8 +10,7 @@ const Button = ({ onDelete }) => {
 };
 
 Button.propTypes = {
-  id: PropTypes.string,
-  onDelete: PropTypes.func,
+  onDelete: PropTypes.func.isRequired,
 };
 
 export default Button;
